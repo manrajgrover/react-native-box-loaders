@@ -65,81 +65,23 @@ class squareLoader extends Component {
     this.fallToCenter();
   }
   render() {
+    let AnimatedViews = [];
+    for(let i=1;i<=9;i++){
+      AnimatedViews.push(
+        <Animated.View
+          style={[
+            styles.box,
+            {
+              transform: this.state["box"+i].getTranslateTransform()
+            }
+          ]}
+        />
+      );
+    }
     return (
       <View style={styles.container}>
         <View style={styles.loaderContainer}>
-          <Animated.View 
-            style={[
-              styles.box,
-              {
-                transform: this.state.box1.getTranslateTransform()
-              }
-            ]}
-          />
-          <Animated.View 
-            style={[
-              styles.box,
-              {
-                transform: this.state.box2.getTranslateTransform()
-              }
-            ]}
-          />
-          <Animated.View 
-            style={[
-              styles.box,
-              {
-                transform: this.state.box3.getTranslateTransform()
-              }
-            ]}
-          />
-          <Animated.View 
-            style={[
-              styles.box,
-              {
-                transform: this.state.box4.getTranslateTransform()
-              }
-            ]}
-          />
-          <Animated.View 
-            style={[
-              styles.box,
-              {
-                transform: this.state.box5.getTranslateTransform()
-              }
-            ]}
-          />
-          <Animated.View 
-            style={[
-              styles.box,
-              {
-                transform: this.state.box6.getTranslateTransform()
-              }
-            ]}
-          />
-          <Animated.View
-            style={[
-              styles.box,
-              {
-                transform: this.state.box7.getTranslateTransform()
-              }
-            ]}
-          />
-          <Animated.View 
-            style={[
-              styles.box,
-              {
-                transform: this.state.box8.getTranslateTransform()
-              }
-            ]}
-          />
-          <Animated.View 
-            style={[
-              styles.box,
-              {
-                transform: this.state.box9.getTranslateTransform()
-              }
-            ]}
-          />
+          {AnimatedViews}
         </View>
       </View>
     );
