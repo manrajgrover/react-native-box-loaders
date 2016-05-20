@@ -18,21 +18,15 @@ let SQD = 20;
 class squareLoader extends Component {
   constructor(props){
     super(props);
-    console.log("Here Constructor");
-    this.state = {
-      box1 : new Animated.ValueXY({x: 0, y: 0}),
-      box2 : new Animated.ValueXY({x: 50, y: 0}),
-      box3 : new Animated.ValueXY({x: 100, y: 0}),
-      box4 : new Animated.ValueXY({x: 0, y: -50}),
-      box5 : new Animated.ValueXY({x: 50, y: -50}),
-      box6 : new Animated.ValueXY({x: 100, y: -50}),
-      box7 : new Animated.ValueXY({x: 0, y: -100}),
-      box8 : new Animated.ValueXY({x: 50, y: -100}),
-      box9 : new Animated.ValueXY({x: 100, y: -100}),
-    };
+    this.state = {};
+    let x = [0, 50, 100];
+    let y = [-50, -100, -150];
+    for(let i=0;i<9;i++){
+      let str = "box"+(i+1);
+      this.state[str] = new Animated.ValueXY({x: x[(i%3)], y: y[(i%3)]});
+    }
   }
   componentDidMount(){
-    console.log("Here");
     Animated.sequence([
         Animated.timing(this.state.box1, {
           toValue: {x: 0, y: 300},
