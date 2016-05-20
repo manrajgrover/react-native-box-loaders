@@ -19,14 +19,61 @@ class squareLoader extends Component {
   constructor(props){
     super(props);
     this.state = {};
-    let x = [0, 50, 100];
-    let y = [-50, -100, -150];
+    this.x = [0, 50, 100];
+    this.y = [-50, -100, -150];
     for(let i=0;i<9;i++){
       let str = "box"+(i+1);
-      this.state[str] = new Animated.ValueXY({x: x[(i%3)], y: y[(i%3)]});
+      this.state[str] = new Animated.ValueXY({x: this.x[(i%3)], y: this.y[(i%3)]});
     }
   }
-  componentDidMount(){
+  resetValues(){
+    for(let i=0;i<9;i++){
+      let str = "box"+(i+1);
+      this.state[str].setValue({x: this.x[(i%3)], y: this.y[(i%3)]});
+    }
+  }
+  fallToEnd(){
+    Animated.sequence([
+        Animated.timing(this.state.box1, {
+          toValue: {x: 0, y: height+50},
+          duration: 100
+        }),
+        Animated.timing(this.state.box2, {
+          toValue: {x: 50, y: height+50},
+          duration: 100
+        }),
+        Animated.timing(this.state.box3, {
+          toValue: {x: 100, y: height+50},
+          duration: 100
+        }),
+        Animated.timing(this.state.box4, {
+          toValue: {x: 0, y: height+50},
+          duration: 100
+        }),
+        Animated.timing(this.state.box5, {
+          toValue: {x: 50, y: height+50},
+          duration: 100
+        }),
+        Animated.timing(this.state.box6, {
+          toValue: {x: 100, y: height+50},
+          duration: 100
+        }),
+        Animated.timing(this.state.box7, {
+          toValue: {x: 0, y: height+50},
+          duration: 100
+        }),
+        Animated.timing(this.state.box8, {
+          toValue: {x: 50, y: height+50},
+          duration: 100
+        }),
+        Animated.timing(this.state.box9, {
+          toValue: {x: 100, y: height+50},
+          duration: 100
+        }),
+    ]).start(this.fallToCenter.bind(this));
+  }
+  fallToCenter(){
+    this.resetValues();
     Animated.sequence([
         Animated.timing(this.state.box1, {
           toValue: {x: 0, y: 300},
@@ -64,7 +111,10 @@ class squareLoader extends Component {
           toValue: {x: 100, y: 200},
           duration: 100
         }),
-    ]).start()
+    ]).start(this.fallToEnd.bind(this));
+  }
+  componentDidMount(){
+    this.fallToCenter();
   }
   render() {
     return (
