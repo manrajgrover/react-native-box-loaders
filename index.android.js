@@ -21,10 +21,22 @@ class squareLoader extends Component {
     this.state = {};
     this.x = [0, 50, 100];
     this.y = [-50, -100, -150];
+    this.centerY = [300, 250, 200];
     for(let i=0;i<9;i++){
       let str = "box"+(i+1);
       this.state[str] = new Animated.ValueXY({x: this.x[(i%3)], y: this.y[(i%3)]});
     }
+    this.toCenter = [];
+    for(let i=0;i<9;i++){
+      let str = "box"+(i+1);
+      this.toCenter.push(
+        Animated.timing(this.state[str], {
+          toValue: {x: this.x[(i%3)], y: this.centerY[Math.floor(i/3)]},
+          duration: 100
+        })
+      );
+    }
+    console.log(this.toCenter);
   }
   resetValues(){
     for(let i=0;i<9;i++){
@@ -74,44 +86,8 @@ class squareLoader extends Component {
   }
   fallToCenter(){
     this.resetValues();
-    Animated.sequence([
-        Animated.timing(this.state.box1, {
-          toValue: {x: 0, y: 300},
-          duration: 100
-        }),
-        Animated.timing(this.state.box2, {
-          toValue: {x: 50, y: 300},
-          duration: 100
-        }),
-        Animated.timing(this.state.box3, {
-          toValue: {x: 100, y: 300},
-          duration: 100
-        }),
-        Animated.timing(this.state.box4, {
-          toValue: {x: 0, y: 250},
-          duration: 100
-        }),
-        Animated.timing(this.state.box5, {
-          toValue: {x: 50, y: 250},
-          duration: 100
-        }),
-        Animated.timing(this.state.box6, {
-          toValue: {x: 100, y: 250},
-          duration: 100
-        }),
-        Animated.timing(this.state.box7, {
-          toValue: {x: 0, y: 200},
-          duration: 100
-        }),
-        Animated.timing(this.state.box8, {
-          toValue: {x: 50, y: 200},
-          duration: 100
-        }),
-        Animated.timing(this.state.box9, {
-          toValue: {x: 100, y: 200},
-          duration: 100
-        }),
-    ]).start(this.fallToEnd.bind(this));
+    console.log(this.toCenter)
+    Animated.sequence(this.toCenter).start(this.fallToEnd.bind(this));
   }
   componentDidMount(){
     this.fallToCenter();
