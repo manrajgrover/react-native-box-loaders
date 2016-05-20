@@ -27,6 +27,7 @@ class squareLoader extends Component {
       this.state[str] = new Animated.ValueXY({x: this.x[(i%3)], y: this.y[(i%3)]});
     }
     this.toCenter = [];
+    this.toEnd = [];
     for(let i=0;i<9;i++){
       let str = "box"+(i+1);
       this.toCenter.push(
@@ -36,7 +37,15 @@ class squareLoader extends Component {
         })
       );
     }
-    console.log(this.toCenter);
+    for(let i=0;i<9;i++){
+      let str = "box"+(i+1);
+      this.toEnd.push(
+        Animated.timing(this.state[str], {
+          toValue: {x: this.x[(i%3)], y: height+50},
+          duration: 100
+        })
+      );
+    }
   }
   resetValues(){
     for(let i=0;i<9;i++){
@@ -45,44 +54,7 @@ class squareLoader extends Component {
     }
   }
   fallToEnd(){
-    Animated.sequence([
-        Animated.timing(this.state.box1, {
-          toValue: {x: 0, y: height+50},
-          duration: 100
-        }),
-        Animated.timing(this.state.box2, {
-          toValue: {x: 50, y: height+50},
-          duration: 100
-        }),
-        Animated.timing(this.state.box3, {
-          toValue: {x: 100, y: height+50},
-          duration: 100
-        }),
-        Animated.timing(this.state.box4, {
-          toValue: {x: 0, y: height+50},
-          duration: 100
-        }),
-        Animated.timing(this.state.box5, {
-          toValue: {x: 50, y: height+50},
-          duration: 100
-        }),
-        Animated.timing(this.state.box6, {
-          toValue: {x: 100, y: height+50},
-          duration: 100
-        }),
-        Animated.timing(this.state.box7, {
-          toValue: {x: 0, y: height+50},
-          duration: 100
-        }),
-        Animated.timing(this.state.box8, {
-          toValue: {x: 50, y: height+50},
-          duration: 100
-        }),
-        Animated.timing(this.state.box9, {
-          toValue: {x: 100, y: height+50},
-          duration: 100
-        }),
-    ]).start(this.fallToCenter.bind(this));
+    Animated.sequence(this.toEnd).start(this.fallToCenter.bind(this));
   }
   fallToCenter(){
     this.resetValues();
