@@ -13,7 +13,7 @@ class squareLoader extends Component {
     console.log("Rendering");
     return (
       <View style={styles.container}>
-        <Loader1></Loader1>
+        <Loader1 backgroundColor="#e5e5e5" squareColor="#000000"></Loader1>
       </View>
     );
   }
@@ -21,10 +21,7 @@ class squareLoader extends Component {
 
 var styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#5FEBFF',
-    alignItems: 'center',
-    justifyContent: 'center'
+    flex: 1
   }
 });
 

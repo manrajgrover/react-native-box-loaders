@@ -73,22 +73,35 @@ class Loader1 extends Component {
           style={[
             styles.box,
             {
-              transform: this.state["box"+i].getTranslateTransform()
+              transform: this.state["box"+i].getTranslateTransform(),
+              backgroundColor: this.props.squareColor
             }
           ]}
         />
       );
     }
     return (
-      <View style={styles.loaderContainer}>
-        {AnimatedViews}
+      <View style={[
+          styles.loaderContainer,
+          {
+            backgroundColor: this.props.backgroundColor
+          }
+        ]}>
+        <View style={styles.content}>
+          {AnimatedViews}
+        </View>
       </View>
     );
   }
 }
 
 var styles = StyleSheet.create({
-  loaderContainer:{
+  loaderContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  content:{
     position: 'relative',
     width: width - width/1.5,
     height: height
