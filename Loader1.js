@@ -23,13 +23,13 @@ class Loader1 extends Component {
     this.y = [-50, -100, -150];
     this.centerY = [300, 250, 200];
     for(let i=0;i<9;i++){
-      let str = "box"+(i+1);
+      let str = `box${(i+1)}`;
       this.state[str] = new Animated.ValueXY({x: this.x[(i%3)], y: this.y[(i%3)]});
     }
     this.toCenter = [];
     this.toEnd = [];
     for(let i=0;i<9;i++){
-      let str = "box"+(i+1);
+      let str = `box${(i+1)}`;
       this.toCenter.push(
         Animated.timing(this.state[str], {
           toValue: {x: this.x[(i%3)], y: this.centerY[Math.floor(i/3)]},
@@ -38,7 +38,7 @@ class Loader1 extends Component {
       );
     }
     for(let i=0;i<9;i++){
-      let str = "box"+(i+1);
+      let str = `box${(i+1)}`;
       this.toEnd.push(
         Animated.timing(this.state[str], {
           toValue: {x: this.x[(i%3)], y: height+50},
@@ -49,7 +49,7 @@ class Loader1 extends Component {
   }
   resetValues(){
     for(let i=0;i<9;i++){
-      let str = "box"+(i+1);
+      let str = `box${(i+1)}`;
       this.state[str].setValue({x: this.x[(i%3)], y: this.y[(i%3)]});
     }
   }
@@ -58,7 +58,6 @@ class Loader1 extends Component {
   }
   fallToCenter(){
     this.resetValues();
-    console.log(this.toCenter)
     Animated.sequence(this.toCenter).start(this.fallToEnd.bind(this));
   }
   componentDidMount(){
