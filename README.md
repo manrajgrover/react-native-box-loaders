@@ -1,5 +1,5 @@
-# react-native-box-loader
-React Native Box loader
+# react-native-box-loaders
+React Native Box loaders
 
 ## Demo
 
