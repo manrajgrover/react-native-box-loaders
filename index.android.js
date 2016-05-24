@@ -7,9 +7,9 @@ import {
   Animated
 } from 'react-native';
 
-import Spinners from './Spinners';
+import BoxLoaders from './BoxLoaders';
 
-class squareLoader extends Component {
+class RNBoxLoaders extends Component {
   constructor(props){
     super(props);
     this.spinners = [];
@@ -22,7 +22,7 @@ class squareLoader extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Spinners style={styles.spinner} type={this.state.type} backgroundColor={this.state.backgroundColor} squareColor = {this.state.squareColor} />
+        <BoxLoaders style={styles.spinner} type={this.state.type} backgroundColor={this.state.backgroundColor} squareColor = {this.state.squareColor} />
       </View>
     );
   }
@@ -39,4 +39,4 @@ var styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('squareLoader', () => squareLoader);
+AppRegistry.registerComponent('BoxLoaders', () => RNBoxLoaders);

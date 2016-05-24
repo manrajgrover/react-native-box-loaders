@@ -2,137 +2,137 @@
 <items version="2" >
 
     <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="346d6dc48105399df3f76194235cbb4bb9ad350e">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-85a3bdea81f39e0095116180dd4bddc94db9dc6d.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-7e32fcdfa821b45e8feefdf332fcb63271f339dd.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-39d500860b804e7f5ef2acba84bee753db2bb17e.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-ebd284ef9fbb7cb47c80560df047afcf144706b6.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-66d3dc010a6bafef1562a145fc5303b9d1666a7c.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-df1fa675fc50df3b9e3ee6d65590caef73ef3a4b.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-3d2a12bea90ee7ce0648218dde98fd05b103c846.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-5f24193e79ec9b4ff84deb9a89a260fa68820bf7.jar" />
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-fbc9ab891e0acb27ce35a0219e645dc24129da32.jar" />
     </item>
     <item
-        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-7032270c45bd69228be7e33209ced30942eb729a.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-69b62dea8d6456bf95ce75b76388a4aa0ab69ed7.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-81346ea7542e937173a1ebf1dbd5d21a6fdb2c34.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-a449355a9f950b0bf410e77f884ac6822f2cc4f1.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="80762a4bb84c50a94e63a9386f46f5b8751762ca">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-7747342022ecf6df0c73624c643f97fd090d77fc.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="845a5b3a624946b2068963ba656c117fc453701c">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-21fd9970b1b0c254bfb05eaa164a3db82c6f3b67.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-def93394a9687d4ebbf25bfba0efe0367dcd25f4.jar" />
-    </item>
-    <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-cbf4ad6ea5bd55cfade942a418453813a5eb0c9e.jar" />
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-6dc4259e61bb1a2113b8b86c54fa4dc4d7b3dae6.jar" />
     </item>
     <item
         jar="/home/manrajsingh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-7f8fd41075fa007468661c21e0230307e5c37ab0.jar" />
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-7f8fd41075fa007468661c21e0230307e5c37ab0.jar" />
     </item>
     <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-6d8ed6ef10053d8d7394427b66bb8124f104d7ce.jar" />
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-66d3dc010a6bafef1562a145fc5303b9d1666a7c.jar" />
     </item>
     <item
-        jar="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
+        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-3d2a12bea90ee7ce0648218dde98fd05b103c846.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-def93394a9687d4ebbf25bfba0efe0367dcd25f4.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.5.0/e9753b7dcae5deca92e871c5c759067070b07bc/okhttp-ws-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0e9753b7dcae5deca92e871c5c759067070b07bc">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.5.0-7032270c45bd69228be7e33209ced30942eb729a.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.1/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c787e0ddb8447c4727313c35f298d4daf8bf44ec">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-5a7d27eb090077c0edd1c6d9fdd0e57d43a5104b.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-84475c2800d72de6bfc6b163c7a2a71218277cda.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.8.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
-        <dex dex="/home/manrajsingh/Documents/Github/react-native-falling-boxes-loader/android/app/build/intermediates/pre-dexed/debug/classes-2a44d0673270104816cb30c140cb618e1c835442.jar" />
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-fb4df1dfd508fe3593e87d130547a050de07f477.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d5d69b03cb7d68b81543f6483ed04ccb0e2235b">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-2723966300c8245c515246fee5ab17ef901ce411.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/okio-1.6.0-81346ea7542e937173a1ebf1dbd5d21a6fdb2c34.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-1031ded5660293f2499975829fe186fd1b5b5ac4.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.8.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-972ee21e98eef1269534643f2af5a39fc0d0cd65.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-71fd3969c93918b8830b8cda61e33650a2c596cf.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.26.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a21a10eebad52b3fbafcb33ced0d77c4cc13a1fd">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/classes-4fd6150b68e2326d31c763d474e77e02169cb787.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-ebd284ef9fbb7cb47c80560df047afcf144706b6.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-df1fa675fc50df3b9e3ee6d65590caef73ef3a4b.jar" />
+    </item>
+    <item
+        jar="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/manrajsingh/Documents/Github/react-native-box-loaders/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-bc4483a526e93a2b7cf711a4ce10e1f042171c89.jar" />
     </item>
 
 </items>
