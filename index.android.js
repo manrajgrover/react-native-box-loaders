@@ -6,13 +6,23 @@ import {
   View,
   Animated
 } from 'react-native';
-import Loader1 from './Loader1';
+
+import Spinners from './Spinners';
 
 class squareLoader extends Component {
+  constructor(props){
+    super(props);
+    this.spinners = [];
+    this.state = {
+      type: 'Loader1',
+      backgroundColor: '#e5e5e5',
+      squareColor: '#000000'
+    }
+  }
   render() {
     return (
       <View style={styles.container}>
-        <Loader1 backgroundColor="#e5e5e5" squareColor="#000000"></Loader1>
+        <Spinners style={styles.spinner} type={this.state.type} backgroundColor={this.state.backgroundColor} squareColor = {this.state.squareColor} />
       </View>
     );
   }
@@ -21,6 +31,11 @@ class squareLoader extends Component {
 var styles = StyleSheet.create({
   container: {
     flex: 1
+  },
+  spinner:{
+    width: 100,
+    height: 100,
+    position: 'absolute',
   }
 });
 
