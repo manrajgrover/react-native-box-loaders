@@ -15,7 +15,7 @@ let {
 
 let SQD = 20;
 
-class Loader1 extends Component {
+class FallingBoxes extends Component {
   constructor(props){
     super(props);
     this.state = {};
@@ -113,4 +113,4 @@ var styles = StyleSheet.create({
   }
 });
 
-export default Loader1;
+export default FallingBoxes;

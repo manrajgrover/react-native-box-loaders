@@ -2,7 +2,7 @@
 * @Author: Manraj Singh
 * @Date:   2016-05-24 18:46:13
 * @Last Modified by:   Manraj Singh
-* @Last Modified time: 2016-05-25 00:41:09
+* @Last Modified time: 2016-05-27 20:39:52
 */
 
 'use strict';
@@ -16,15 +16,19 @@ import {
   Animated
 } from 'react-native';
 
-import Loader1 from './Loader1';
+import FallingBoxes from './FallingBoxes';
 
 class BoxLoaders extends Component {
   render() {
   	switch (this.props.type) {
-  		case 'Loader1':
+  		case 'FallingBoxes':
   			return(
-  				<Loader1 backgroundColor={this.props.backgroundColor} squareColor = {this.props.squareColor} />
+  				<FallingBoxes backgroundColor={this.props.backgroundColor} squareColor = {this.props.squareColor} />
   			);
+      case 'Loader2':
+        return(
+          <Loader2 backgroundColor={this.props.backgroundColor} squareColor = {this.props.squareColor} />
+        );
   		default:
   			return(
   				<View />

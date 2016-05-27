@@ -14,15 +14,16 @@ class RNBoxLoaders extends Component {
     super(props);
     this.spinners = [];
     this.state = {
-      type: 'Loader1',
+      type: 'FallingBoxes',
       backgroundColor: '#e5e5e5',
-      squareColor: '#000000'
+      squareColor: '#000000',
+      size: 50
     }
   }
   render() {
     return (
       <View style={styles.container}>
-        <BoxLoaders style={styles.spinner} type={this.state.type} backgroundColor={this.state.backgroundColor} squareColor = {this.state.squareColor} />
+        <BoxLoaders style={styles.spinner} size={this.state.size} type={this.state.type} backgroundColor={this.state.backgroundColor} squareColor = {this.state.squareColor} />
       </View>
     );
   }
